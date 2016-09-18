@@ -12,3 +12,5 @@ Requirement :
 beautifulsoup4==4.5.1
 requests==2.11.1
 ```
+
+>Warning : It only works for Thailand Post EMS.
