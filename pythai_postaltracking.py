@@ -9,7 +9,3 @@ def tracking_status(tracking_id) :
     date = recent_list[0].text
     status = recent_list[1].text
     return (date,status)
-
-tracking_id = input('Input Your Tracking_id (EMS Only) : ')
-date_status = tracking_status(tracking_id)
-print ('%s %s %s'%(date_status[0],tracking_id,date_status[1]))
